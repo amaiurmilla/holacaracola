@@ -40,6 +40,10 @@ h1, h2, h3 {
     padding: 0 1rem;
 }
 
+.intro {
+    text-align: center;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -134,7 +138,7 @@ details summary{cursor:pointer;}
 details p{margin:0.5rem 0 0 0;}
 
 @media (max-width: 600px) {
-    .hero-content h1 {
+    .intro h1 {
         font-size: 2rem;
     }
 }
